@@ -1,0 +1,9 @@
+<%- include header %>
+<%= title %>
+<% for(var i = 0;i<arts.length;i++){ %>
+<%= arts[i].title %>
+<%= arts[i].tags %>
+<%= arts[i].author %>
+<%= arts[i].content %>
+<% } %>
+<%- include footer %>
